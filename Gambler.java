@@ -1,7 +1,8 @@
+package corejava;
 import java.util.Random;
 
 public class Gambler {
-	//Constants
+	
 	private final int STAKE_PER_DAY = 100;
 	private final int BETTING_AMOUNT = 1;
 	private final int MAX_WINNING_AMOUNT = 150;
@@ -9,10 +10,10 @@ public class Gambler {
 	private final int PLAYING_DAYS=20;
 	
 
-	//Calculating proft & loss after 20 Days
+	
 	public void gamblingSimulation() {
 		int day;
-		int dailyProfit=0;
+		int  dailyProfit=0;
 		int dailyLoss=0;		
 		
 		for(day = 0;day <= PLAYING_DAYS; day++) {
