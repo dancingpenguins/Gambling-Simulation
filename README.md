@@ -1,2 +1,2 @@
 # Gambling-Simulation
-Gambler's Programs....! 
+This program simulates a Gambler's game for a plater. 
