@@ -8,7 +8,7 @@ public class Gambler {
 	private final int BETTING_AMOUNT = 1;
 	private final int MAX_WINNING_AMOUNT = 150;
 	private final int MIN_LOSING_AMOUNT = 50;
-	private final int PLAYING_DAYS=20;
+	private final int PLAYING_DAYS=30;
 	
 	List <Integer> Gamblers_Monthly_Profit_Loss_Collection = new ArrayList <Integer> ();
 
